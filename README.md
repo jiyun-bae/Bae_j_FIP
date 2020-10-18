@@ -6,7 +6,9 @@ Especially, for Authoring class, we develop the site with code technics we have 
 [header] <br>
 <img src="images/screenshot_header.png" alt=picture> <br>
 [footer] <br>
-<img src="images/screenshot_footer.png" alt=picture>
+<img src="images/screenshot_footer.png" alt=picture> <br><br>
+Basic page structue is created with html, and logo, font, or size are developed with css. In CSS, I used SASS file with modules to push everything to main.css file easily. Also, AJAX is used for better quality of development. There are three pages which are home, design, and contact you can code, and blog page is connected to real blog site(new link).
+
 
 ## Installation
 
@@ -15,7 +17,8 @@ For our nightly builds: (npm install -g bae_j_FIP@next)
 
 ## Usage
 
-
+Paddington is easiest to use when installed with npm: (npm install paddington) <br>
+Then you can load the module into your code with a require call: (var paddington = require('paddington');) <br>
 
 ## Contributing
 
