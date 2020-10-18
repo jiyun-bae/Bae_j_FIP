@@ -9,6 +9,16 @@ Especially, for Authoring class, we develop the site with code technics we have 
 <img src="images/screenshot_footer.png" alt=picture> <br><br>
 Basic page structue is created with html, and logo, font, or size are developed with css. In CSS, I used SASS file with modules to push everything to main.css file easily. Also, AJAX is used for better quality of development. There are three pages which are home, design, and contact you can code, and blog page is connected to real blog site(new link).
 
+## Description
+
+gallery functionality - <br>
+var blueprint_background = new Image();
+blueprint_background.src = 'images/blueprint_background.png'; 
+blueprint_background.onload = function(){
+    var pattern = context.createPattern(this, "repeat");
+    context.fillStyle = pattern;
+    context.fill();
+};
 
 ## Installation
 
