@@ -4,7 +4,7 @@ Create the portfolio site showing my skills and artworks to present future work.
 Especially, for Authoring class, we develop the site with code technics we have leared in the class. For example, SASS, AJAX, and Javasciprt...ext. <br>
 <future looks> <br>
 [header] <br>
-![alt text](file:///Users/baejiyun/Desktop/screenshot_header.png) <br>
+![picture](.images/screenshot_header.png) <br>
 [footer] <br>
 ![picture](file:///Users/baejiyun/Desktop/screenshot_footer.png)
 
