@@ -6,7 +6,7 @@ Especially, for Authoring class, we develop the site with code technics we have 
 [header] <br>
 ![picture](.images/screenshot_header.png) <br>
 [footer] <br>
-![picture](file:///Users/baejiyun/Desktop/screenshot_footer.png)
+<img src="file:///Users/baejiyun/Desktop/screenshot_footer.png" alt=picture>
 
 ## Installation
 
