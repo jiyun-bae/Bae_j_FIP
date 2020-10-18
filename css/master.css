@@ -1,28 +1,19 @@
 /*
-Error: Invalid CSS after "...ia screen and (": expected expression (e.g. 1px, bold), was ") {"
-        on line 1 of sass/modules/_mediaqueries.scss
-        from line 1 of sass/master.scss
+Error: Invalid CSS after "$main-text-color: ": expected expression (e.g. 1px, bold), was ";"
+        on line 1 of sass/modules/_vars.scss
+        from line 2 of sass/master.scss
 
-1: @media screen and () {
-2: 
-3: }
+1: $main-text-color: ;
 
 Backtrace:
-sass/modules/_mediaqueries.scss:1
-sass/master.scss:1
+sass/modules/_vars.scss:1
+sass/master.scss:2
 /Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308:in `expected'
 /Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/script/lexer.rb:240:in `expected!'
 /Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/script/parser.rb:855:in `assert_expr'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/script/parser.rb:86:in `parse_until'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/script/parser.rb:68:in `parse'
 /Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1164:in `sass_script'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:481:in `query_expr'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1216:in `expr!'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:458:in `media_query'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:426:in `media_query_list'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1216:in `expr!'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:421:in `media_directive'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:234:in `special_directive'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:209:in `directive'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:653:in `variable'
 /Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:707:in `block_child'
 /Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:697:in `block_contents'
 /Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:137:in `stylesheet'
@@ -73,4 +64,4 @@ sass/master.scss:1
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"...ia screen and (\": expected expression (e.g. 1px, bold), was \") {\"\A         on line 1 of sass/modules/_mediaqueries.scss\A         from line 1 of sass/master.scss\A \A 1: @media screen and () {\A 2: \A 3: }"; }
+  content: "Error: Invalid CSS after \"$main-text-color: \": expected expression (e.g. 1px, bold), was \";\"\A         on line 1 of sass/modules/_vars.scss\A         from line 2 of sass/master.scss\A \A 1: $main-text-color: ;"; }
