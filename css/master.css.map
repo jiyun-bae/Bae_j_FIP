@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAAA,oCAAqC,CAEjC,IAAK,CAAE,gBAAgB,CAAE,IAAI,ECFjC,IAAK,CAED,MAAM,CAAE,CAAC,CACT,MAAM,CAAE,CAAC,CCHb,GAAI,CACA,MAAM,CAAE,CAAC,CCDb,MAAO,CACH,QAAQ,CAAE,KAAK,CACf,MAAM,CAAE,CAAC,CACT,gBAAgB,CAAE,KAAK,CACvB,KAAK,CAAE,IAAI,CACX,UAAU,CAAE,MAAM,CAClB,KAAK,CAAE,KAAK",
+"sources": ["../sass/modules/_mediaqueries.scss","../sass/modules/_main.scss","../sass/modules/_nav.scss","../sass/modules/_footer.scss"],
 "names": [],
 "file": "master.css"
 }
