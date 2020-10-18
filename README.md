@@ -4,14 +4,14 @@ Create the portfolio site showing my skills and artworks to present future work.
 Especially, for Authoring class, we develop the site with code technics we have leared in the class. For example, SASS, AJAX, and Javasciprt...ext. <br>
 <future looks> <br>
 [header] <br>
-![picture](.images/screenshot_header.png) <br>
+<img src="images/screenshot_header.png" alt=picture> <br>
 [footer] <br>
-<img src="file:///Users/baejiyun/Desktop/screenshot_footer.png" alt=picture>
+<img src="images/screenshot_footer.png" alt=picture>
 
 ## Installation
 
-For the latest stable version: npm install -g bae_j_FIP <br>
-For our nightly builds: npm install -g bae_j_FIP@next
+For the latest stable version: (npm install -g bae_j_FIP) <br>
+For our nightly builds: (npm install -g bae_j_FIP@next)
 
 ## Usage
 
