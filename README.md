@@ -14,9 +14,9 @@ Portfolio page is created with HTML, SASS, AJAX, Database, and Javascript. There
  
 ## Installation
 
-MAMP (https://www.mamp.info/en/mamp/mac/)
-SASS (https://sass-lang.com/install)
-Vue (https://vuejs.org/v2/guide/)
+MAMP (https://www.mamp.info/en/mamp/mac/) <br>
+SASS (https://sass-lang.com/install) <br>
+Vue (https://vuejs.org/v2/guide/) <br>
 
 ## Contributing
 
