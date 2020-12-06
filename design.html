@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+	<title>Portfolio for FIP</title>
+
+	<link rel="stylesheet" href="css/master.css">
+
+	<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+<body>
+	<h1 class="hidden">Home Page Layout</h1>
+	<main class="container">
+        <header class="header">
+            <div class="mainlogo">
+                <img src="images/logo.svg" alt="main logo" width="100px">
+             </div>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="design.html">Design</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+			</ul>
+			<hr class="headerline">
+            </header>
+    </main>
+
+	<section>
+		<div class="mainNamecontainer">
+		     <div class="bgrdecoimage2"></div>
+		     <h1 class="centered2">DESIGN</h1>
+	    </div>
+	</section>
+
+	<h2 id="representworks">Represent Works</h2>
+<section id="workGallery">
+	<div class="row">
+		<div class="column">
+		  <img src="images/product_sence_1.png" style="width:80%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+		</div>
+				  
+			<main id="app">
+				<h4 @click="clickHeader">{{ message }}</h4>
+				<p>{{anotherMessage}}</p>
+			</main>
+		
+	  </div>
+	  
+	  <div id="myModal" class="modal">
+		<span class="close cursor" onclick="closeModal()">&times;</span>
+		<div class="modal-content">
+	  
+		  <div class="mySlides">
+			<div class="numbertext">1 / 5</div>
+			<img src="images/product_sence_1.png" style="width:50%">
+		  </div>
+	  
+		  <div class="mySlides">
+			<div class="numbertext">2 / 5</div>
+			<img src="images/product_sence_2.png" style="width:50%">
+		  </div>
+	  
+		  <div class="mySlides">
+			<div class="numbertext">3 / 5</div>
+			<img src="images/product_sence_3.png" style="width:50%">
+		  </div>
+		  
+		  <div class="mySlides">
+			<div class="numbertext">4 / 5</div>
+			<img src="images/product_sence_4.png" style="width:50%">
+		  </div>
+		  
+		  <div class="mySlides">
+			<div class="numbertext">5 / 5</div>
+			<img src="images/product_sence_5.png" style="width:50%">
+		  </div>
+
+		  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+	  
+		  <div class="caption-container">
+			<p id="caption"></p>
+		  </div>
+		  
+		  <div class="insidecolumn">
+			<img class="demo cursor" src="images/product_sence_1.png" style="width:100%" onclick="currentSlide(1)" alt="Beauty Engineered">
+		  </div>
+		  <div class="insidecolumn">
+			<img class="demo cursor" src="images/product_sence_2.png" style="width:100%" onclick="currentSlide(2)" alt="Reinvent Yourself">
+		  </div>
+		  <div class="insidecolumn">
+			<img class="demo cursor" src="images/product_sence_3.png" style="width:100%" onclick="currentSlide(3)" alt="Retexturize">
+		  </div>
+		  <div class="insidecolumn">
+			<img class="demo cursor" src="images/product_sence_4.png" style="width:100%" onclick="currentSlide(4)" alt="Rejuvenate">
+		  </div>
+		  <div class="insidecolumn">
+			<img class="demo cursor" src="images/product_sence_5.png" style="width:100%" onclick="currentSlide(5)" alt="Create Your Style">
+		  </div>
+		</div>
+	  </div>
+	  
+	  <h5>Other Projects</h5>
+
+	  <section class="otherprojects">
+	  <div class="row2">
+		<div class="column2">
+		  <div class="content">
+			<img src="images/project2.jpg" alt="project2" style="width:100%" class="projectimg">
+			<div class="middle">
+				<div class="text">Room Building</div>
+			  </div>
+			<p>The project used cinema 4d to create all the furniture, and came up with a suitable color and overall structure. In addition, we increased our understanding of the 3D program by using cameras from various angles.</p>
+		  </div>
+		</div>
+		<div class="column2">
+		  <div class="content">
+		  <img src="images/project3.png" alt="project3" style="width:100%" class="projectimg">
+		  <div class="middle">
+			<div class="text">Band-Aid Beer</div>
+		  </div>
+			<p>The project was to be reborn by mixing two brands. <br>We mixed the band brand with the beer brand to create a new beer brand. <br>From the combined new logo to the package design of beer to the promotional video of beer. <br>In this process, Photoshop and Illustrator could be used, <br>and the shape of beer was made with Cinema 4d to make a video.</p>
+		  </div>
+		</div>
+		<div class="column2">
+			<div class="content">
+			<img src="images/project4.png" alt="project4" style="width:100%" class="projectimg">
+			<div class="middle">
+				<div class="text">Makeup Project</div>
+			  </div>
+			  <p>In this project, we tried to create a complete makeup brand logo and harmonize images and cosmetics. By using Photoshop to correct the photo and insert the letters, I improved the completeness.</p>
+			</div>
+		  </div>
+		</section>
+	</section>
+
+	<h5>Portfolio Video</h5>
+
+	<video width="80%" controls>
+		<source src="video/FIP_video.mp4" type="video/mp4">
+		<source src="video/FIP_video.ogg" type="video/ogg">
+		Your browser does not support the video tag.
+	  </video>
+
+	<footer id="mainFooter">
+		<h2 class="hidden">Footer Navigation</h2>
+		<section id="footerNavContainer">
+					<div class="footerNav">
+						<ul id="information">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="design.html">Design</a></li>
+							<li><a href="">Blog</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+					
+					<hr class="footerline">
+					<ul id="footersnsicons">
+						<a href="#"><img src="images/twitter.png" alt="twitter" width="35px"></a>
+						<a href="#"><img src="images/instagram.png" alt="instagram" width="35px"></a>
+						<a href="#"><img src="images/facebook.png" alt="facebook" width="35px"></a>
+						<p>baejiyun01@gmail.com</p>
+						<div id="footerLogoContainer">
+							<img src="images/logo_white.svg" alt="main logo" id="footerlogo" width="50px">
+						</div>
+					</ul>
+		</section>
+	</footer>
+
+	<script>
+
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+	</script>
+
+
+	<script type="module" src="js/main.js"></script>
+
+</body>
+</html>
