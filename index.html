@@ -4,59 +4,100 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
 	<title>Portfolio for FIP</title>
 
 	<link rel="stylesheet" href="css/master.css">
+
+	<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
 </head>
 <body>
-	<h1 class="hide">Home Page Layout</h1>
+	<h1 class="hidden">Home Page Layout</h1>
 	<main class="container">
-      <!-- main header -->
-      <header id="mainHeader" class="row">
-        <div id="brandName">
-          <h2>Protfolio</h2>
-        </div>
-        <nav id="mainNav">
-        <h2 class="hide">Main Navigation</h2>
-
-        <button id="button"></button>
-
-          <section id="burgerCon">
-            <ul id="burgerMenu">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="design.html">Design</a></li>
-              <li><a href="">Blog</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </section>
-    </nav>
-
-      </header></main>
-
+        <header class="header">
+            <div class="mainlogo">
+                <img src="images/logo.svg" alt="main logo" width="100px">
+             </div>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="design.html">Design</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+			</ul>
+			<hr class="headerline">
+            </header>
+	</main>
+	  
 	<section>
-		<h2 class="hidden">Home Page Image</h2>
-
-
-		<!-- works section-->
+		<div class="mainNamecontainer">
+		     <div class="bgrdecoimage"></div>
+		     <h1 class="centered">Production Designer</h1>
+	    </div>
 	</section>
 
+	<section id="workingfileContainer">
+		<h2 class="hidden">Workingfile Section</h2>
+		<div class="workingfile">
+			<img src="images/placeholder_1.jpg" alt="work1">
+		</div>
+		<div class="workingfile">
+			<img src="images/placeholder_2.jpg" alt="work2">
+		</div>
+	</section>
+
+	<section id="moredesignSection">
+		<p>Want to see <br>more DESIGN works? <br> Go to click "more" icon.  You can explore a little more about me.</p>
+		<div class="arrowcontainer">
+		<img src="images/arrow.svg" alt="arrow img" width="30px">
+	</div>
+		<a href="design.html" class="btn">
+			<span>
+			  <span>
+				<span>more</span>
+			  </span>
+			</span>
+		  </a>
+	</section>
 
 	<footer id="mainFooter">
 		<h2 class="hidden">Footer Navigation</h2>
-		<section id="footerNavContainer"></section>
-		<h2 class="hidden">Information Links</h2>
-					<div class="footerNav"><h4>Information</h4>
+		<section id="footerNavContainer">
+					<div class="footerNav">
 						<ul id="information">
 							<li><a href="index.html">Home</a></li>
+							<li><a href="design.html">Design</a></li>
 							<li><a href="">Blog</a></li>
-							<li><a href="desgin.html">Design</a></li>
 							<li><a href="contact.html">Contact</a></li>
 						</ul>
 					</div>
-		<section id="footerLogoContainer"></section>
-		
+					
+					<hr class="footerline">
+					<ul id="footersnsicons">
+						<a href="#"><img src="images/twitter.png" alt="twitter" width="35px"></a>
+						<a href="#"><img src="images/instagram.png" alt="instagram" width="35px"></a>
+						<a href="#"><img src="images/facebook.png" alt="facebook" width="35px"></a>
+						<p>baejiyun01@gmail.com</p>
+						<div id="footerLogoContainer">
+							<img src="images/logo_white.svg" alt="main logo" id="footerlogo" width="50px">
+						</div>
+					</ul>
+		</section>
 	</footer>
 
+	<script>
+		function myFunction() {
+		  var x = document.getElementById("myLinks");
+		  if (x.style.display === "block") {
+			x.style.display = "none";
+		  } else {
+			x.style.display = "block";
+		  }
+		}
+		</script>
 
 	<script type="module" src="js/main.js"></script>
 
