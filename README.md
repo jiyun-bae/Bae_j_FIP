@@ -1,24 +1,22 @@
 # bae_j_FIP
 
-Create the portfolio site showing my skills and artworks to present future work. <br>
-Especially, for Authoring class, we develop the site with code technics we have leared in the class. For example, SASS, AJAX, and Javasciprt...ext. <br>
-<future looks> <br>
-[header] <br>
-<img src="images/screenshot_header.png" alt=picture> <br>
-[footer] <br>
-<img src="images/screenshot_footer.png" alt=picture> <br><br>
-Basic page structue is created with html, and logo, font, or size are developed with css. In CSS, I used SASS file with modules to push everything to main.css file easily. Also, AJAX is used for better quality of development. There are three pages which are home, design, and contact you can code, and blog page is connected to real blog site(new link).
+Creating the portfolio site showing my skills and artworks to present future work. <br>You can see my portfolio site here -> https://jiyunbae.com/ (domain site)<br>
+The website consists of simple home, design, and contact pages, and all the artwork was created by me.
+
+## Description - Design Part
+
+The whole design of the web portfolio is designed with an autumn style such as brown colours, maple leaf, and an atmosphere of calmness and simple. This design also shows the tendency and style of my design. <br><br> For consistency of site design, only four colors were used to suit the four autumn moods, and the font was also matched with one font style, which is a fluttering mood. For those who visit the homepage to read the email well, I have written the email separately on the footer, and there is also detailed information on the contact page. On the Lisponsive page, a hamburger cone was used to make the menu look simple. <br> The two pictures in homepage is just placeholders for future works. There is a demo reel video at the bottom of design page having consistency with the logo for portfolio. I used the same style and font of logo in the video, too. Also, for the main titles in the website has a shadow to make them look more attractive.
 
 
+## Description - Development Part
+
+Portfolio page is created with HTML, SASS, AJAX, Database, and Javascript. There are 8 different files in SASS. I dicided to divide the contents to footer, main, mediaqueries, mixins, nav, span, and vars. All the contents are connected to master.css. <br> I created a slide lightbox by using function so people can see my all sences related to the main project. Also, all of the images excepted placeholders are in database which is connected by PHP. Modals are made with getElementById in js. To be honest, I could not figure it out how I can change the datas in slide lightbox with VUE. I would like to fix it before I use the portfolio.<br> In Design page, I used VUE so I can change the contents from front-end. For cantact form, I connected mailer.js so the data can be sent when people submitted the email. Additionally, I added errorcode as well.
+ 
 ## Installation
 
-For the latest stable version: (npm install -g bae_j_FIP) <br>
-For our nightly builds: (npm install -g bae_j_FIP@next)
-
-## Usage
-
-Paddington is easiest to use when installed with npm: (npm install paddington) <br>
-Then you can load the module into your code with a require call: (var paddington = require('paddington');) <br>
+MAMP (https://www.mamp.info/en/mamp/mac/) <br>
+SASS (https://sass-lang.com/install) <br>
+Vue (https://vuejs.org/v2/guide/) <br>
 
 ## Contributing
 
@@ -27,10 +25,6 @@ Then you can load the module into your code with a require call: (var paddington
 3. Commit your Changes (git commit -am 'Add some feature')
 4. Push to the Branch (git push origin my-new-feature)
 5. Open a Pull Request
-
-## History
-
-
 
 ## Credits
 

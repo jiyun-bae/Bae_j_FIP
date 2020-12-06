@@ -1,4 +1,155 @@
 @media screen and (min-width: 480px) {
-    // whatever styles you need here
-    body { background-color: pink;}
+    body { background-color: #f5dfd5; }
+}
+
+@media screen and (max-width: 64em) {
+  .centered2  {
+    margin-top: -150px;
+  }
+  
+  .centered, .centered2  {
+    position: absolute;
+    display: flex;
+    display: block;
+    text-align: center; 
+    line-height: 80px;
+    color: white;
+    text-shadow: 0 14.36px 8.896px #854e40,0 -2px 1px #854e40;
+    letter-spacing: -4px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 120px;
+    margin-top: -80px;
+  }
+  
+  .column2 {
+    width: 80%;
+    padding-left: 50px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+}
+
+@media screen and (min-width: 64em) {
+  .row {
+    position: relative;
+    display: flex;
+  
+    .description {
+      margin-left: -200px;
+    }
+  }
+  .row2,
+  .row2 > .column2 {
+  padding: 27px;
+  }
+
+  .column2 {
+  padding-left: 4px;
+  float: left;
+  width: 30%;
+  }
+
+  #representworks {
+    font-size: 60px;
+    margin-left: 50px;
+    text-align: left;
+  }
+
+  .header {
+    height: 100px;
+  }
+  #mainHeader {
+    margin-bottom: 0;
+  }
+  
+  .workingfileContainer {
+    position: relative;
+    height: 750px;
+  }
+
+  .centered  {
+    position: absolute;
+    display: flex;
+    display: block;
+    text-align: center; 
+    line-height: 80px;
+    color: black;
+    text-shadow: 0 13.36px 8.896px white,0 -2px 1px #fff;
+    letter-spacing: -4px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 120px;
+    margin-top: -80px;
+    padding-top: 180px;
+  }
+
+  .centered2  {
+    position: absolute;
+    display: flex;
+    display: block;
+    text-align: center; 
+    line-height: 80px;
+    color: black;
+    text-shadow: 0 14.36px 8.896px white,0 -2px 1px #fff;
+    letter-spacing: -4px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -40px;
+    font-size: 120px;
+    margin: 0;
+  }
+
+  .bgrdecoimage {
+    background-image: url('../images/bgr_homepage.png');
+    height: 390px;
+  }
+
+  .bgrdecoimage2 {
+    background-image: url('../images/bgr_designpage.png');
+    height: 320px;
+  }
+
+  .bgrdecoimage2, .bgrdecoimage {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 930px;
+    background-size: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: -180px;
+  }
+
+  .blurryimage  {
+    width: 930px;
+    height: 500px;
+    background-color: #dedad7;
+    background-image: url('../images/bgr_contact.jpg');
+    border-radius: 6%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+  }
+
+  .splitContactA {
+    display: inline-block;
+    text-align: left;
+    padding-left: 0;
+    h3 {
+      margin-left: -20px;
+    }
+  }
+
+  .splitContactB {
+    margin-bottom: -100px;
+  }
 }
